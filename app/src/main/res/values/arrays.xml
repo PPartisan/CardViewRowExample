@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="site_names">
+        <item>Quora</item>
+        <item>Google</item>
+        <item>Facebook</item>
+        <item>StackOverflow</item>
+        <item>GitHub</item>
+        <item>Instagram</item>
+        <item>BBC UK</item>
+        <item>Yahoo</item>
+        <item>Android Developer Resources</item>
+    </string-array>
+
+    <string-array name="site_urls">
+        <item>http://www.quora.com</item>
+        <item>http://www.google.com</item>
+        <item>http://www.facebook.com</item>
+        <item>http://www.stackoverflow.com</item>
+        <item>http://www.github.com</item>
+        <item>http://www.instagram.com</item>
+        <item>http://www.bbc.co.uk</item>
+        <item>http://www.yahoo.com</item>
+        <item>https://developer.android.com/index.html</item>
+    </string-array>
+    
+</resources>

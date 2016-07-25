@@ -1,7 +1,6 @@
 package com.example.tom.testapplication.cardview;
 
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,16 +31,14 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.ViewHo
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        long time = System.currentTimeMillis() - data.get(position).time;
-        Log.e("TAG", String.valueOf(time));
-
         holder.title.setText(data.get(position).title);
         holder.content.setText(data.get(position).content);
         holder.siteName.setText(data.get(position).siteName);
-        holder.time.setText(getReadableTime(time));
+        holder.time.setText(getReadableTime(System.currentTimeMillis() - data.get(position).time));
         Picasso.with(holder.itemView.getContext())
                 .load(getFaviconUrl(data.get(position).faviconUri))
                 .into(holder.favicon);
+
     }
 
     @Override
