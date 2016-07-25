@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.tom.testapplication.cardview.CardViewFragment;
+import com.example.tom.testapplication.viewgroupanimation.ViewGroupAnimationFragment;
 import com.example.tom.testapplication.youtube.YouTubeFragment;
 
 public class MainActivity extends AppCompatActivity {
